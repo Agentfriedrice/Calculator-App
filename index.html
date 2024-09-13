@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Calculator</title>
+
+        <link rel="stylesheet" href="assets/style.css">
+        <!-- Icon -->
+         <link rel="icon" href="assets/imgs/favicon.ico">
+    </head>
+
+    <body>
+        <section>
+            <div class="calculator">
+
+                <div class="panel"><p class="result"></p></div>
+                <!-- Button section -->
+                <table>
+                    <!-- top row of symbols -->
+                    <tr>
+                        <td><button id="ac" class="btn unique">AC</button></id>
+                        <td><button id="sign" class="btn unique">+/-</button></id>
+                        <td><button id="percent" class="btn unique">%</button></id>
+                        <td><button id="division" class="btn operators">/</button></id>    
+                    </tr>
+                    <!-- row 2 -->
+                    <tr>
+                        <td><button id="seven" class="btn num">7</button></id>
+                        <td><button id="eight" class="btn num">8</button></id>
+                        <td><button id="nine" class="btn num">9</button></id>
+                        <td><button id="multiplication" class="btn operators">X</button></id>
+                    </tr>
+                    <!-- row 3 -->
+                     <tr>
+                        <td><button id="four" class="btn num">4</button></id>
+                        <td><button id="five" class="btn num">5</button></id>
+                        <td><button id="six" class="btn num">6</button></id>
+                        <td><button id="subtraction" class="btn operators">-</button></id>
+                     </tr>
+                     <!-- row 4 -->
+                     <tr>
+                        <td><button id="one" class="btn num">1</button></id>
+                        <td><button id="two" class="btn num">2</button></id>
+                        <td><button id="three" class="btn num">3</button></id>
+                        <td><button id="addition" class="btn operators">+</button></id>
+                     </tr>
+                     <!-- row 5 -->
+                     <tr>
+                        <td colspan="2"><button id="zero" class="btn num"><p id="zero">0</p></button></id>
+                        <td><button id="dec" class="btn decimal">.</button></id>
+                        <td><button id="equal" class="btn operators">=</button></td>    
+                     </tr>
+                </table>
+            </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="calc.js"></script>
+</html>
